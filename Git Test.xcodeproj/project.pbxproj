@@ -86,14 +86,14 @@
 			children = (
 				CE3C13531A8618EA00B467EA /* AppDelegate.h */,
 				CE3C13541A8618EA00B467EA /* AppDelegate.m */,
+				CE3C13751A86753F00B467EA /* Test.h */,
+				CE3C13761A86753F00B467EA /* Test.m */,
 				CE3C13561A8618EA00B467EA /* ViewController.h */,
 				CE3C13571A8618EA00B467EA /* ViewController.m */,
 				CE3C13591A8618EA00B467EA /* Main.storyboard */,
 				CE3C135C1A8618EA00B467EA /* Images.xcassets */,
 				CE3C135E1A8618EA00B467EA /* LaunchScreen.xib */,
 				CE3C134F1A8618EA00B467EA /* Supporting Files */,
-				CE3C13751A86753F00B467EA /* Test.h */,
-				CE3C13761A86753F00B467EA /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
