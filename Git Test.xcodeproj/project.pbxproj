@@ -14,6 +14,7 @@
 		CE3C135D1A8618EA00B467EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3C135C1A8618EA00B467EA /* Images.xcassets */; };
 		CE3C13601A8618EA00B467EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3C135E1A8618EA00B467EA /* LaunchScreen.xib */; };
 		CE3C136C1A8618EA00B467EA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C136B1A8618EA00B467EA /* Git_TestTests.m */; };
+		CE3C13771A86753F00B467EA /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C13761A86753F00B467EA /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CE3C13651A8618EA00B467EA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3C136A1A8618EA00B467EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3C136B1A8618EA00B467EA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CE3C13751A86753F00B467EA /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		CE3C13761A86753F00B467EA /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				CE3C135C1A8618EA00B467EA /* Images.xcassets */,
 				CE3C135E1A8618EA00B467EA /* LaunchScreen.xib */,
 				CE3C134F1A8618EA00B467EA /* Supporting Files */,
+				CE3C13751A86753F00B467EA /* Test.h */,
+				CE3C13761A86753F00B467EA /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3C13581A8618EA00B467EA /* ViewController.m in Sources */,
+				CE3C13771A86753F00B467EA /* Test.m in Sources */,
 				CE3C13551A8618EA00B467EA /* AppDelegate.m in Sources */,
 				CE3C13521A8618EA00B467EA /* main.m in Sources */,
 			);
@@ -344,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Git Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Git Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
